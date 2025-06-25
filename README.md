@@ -1,1 +1,123 @@
 # Mother-hospital-deoband-
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mother Hospital Deoband</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Mother Hospital Deoband</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Mother Hospital Deoband</h2>
+        <p>Providing quality healthcare services since [Year].</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Mother Hospital Deoband is committed to delivering the best medical care to our community. Our experienced doctors and staff are here to serve you.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Medicine</li>
+            <li> Pediatrics</li>
+            <li> Obstetrics & Gynecology</li>
+            <li> Emergency Care</li>
+            <li> Laboratory Services</li>
+        </ul>
+    </section>
+
+    <section id="doctors">
+        <h2>Our Doctors</h2>
+        <p>Meet our team of experienced medical professionals.</p>
+        <!-- List of doctors can be added here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Deoband, Uttar Pradesh</p>
+        <p>Phone: +91-XXXXXXXXXX</p>
+        <p>Email: info@motherhospitaldeoband.com</p>
+        <form>
+            <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name" /><br/>
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email" /><br/>
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message"></textarea><br/>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mother Hospital Deoband. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
